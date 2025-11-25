@@ -1,0 +1,111 @@
+imagery_profiles:
+  false_color_infrared:
+    name: "False Color Infrared"
+    structure: "infrared vegetation signatures, thermal patterns, spectral band combinations, multispectral composites"
+    material: "false color land cover, unnatural hues, data-driven coloring, spectral response patterns"
+    color: "bright red/magenta vegetation, electric blue water, vivid cyan urban areas, hot pink agriculture, lime green forests"
+    texture: "spectral texture patterns, data granularity, pixel-based detail, band ratio textures"
+    composition: "false color composite, band mathematics, spectral enhancement, data layers"
+    style: "Landsat false color, NDVI visualization, infrared composite, remote sensing aesthetic"
+    quality: "data-rich, analytically enhanced, scientifically informative, spectrally separated"
+    mood: "analytical, data-driven, scientifically revealing, infrared vision"
+    examples: "Landsat 7-5-3 composite, agricultural monitoring, vegetation health, thermal mapping"
+
+  true_color_rgb:
+    name: "True Color RGB"
+    structure: "natural Earth appearance, recognizable geography, realistic land features, atmospheric effects"
+    material: "natural surfaces, realistic colors, familiar landscapes, Earth-like appearance"
+    color: "natural greens (forests), blues (water), browns/tans (deserts), whites (clouds/ice), urban grays"
+    texture: "natural terrain texture, cloud patterns, surface detail, photographic quality"
+    composition: "Earth observation, geographic context, planetary perspective, natural lighting"
+    style: "true color composite, natural Earth imaging, photographic satellite view"
+    quality: "realistic, recognizable, natural appearance, photographic fidelity"
+    mood: "documentary, geographic, planetary awareness, natural beauty"
+    examples: "Natural Earth imagery, Google Earth view, astronaut photography, Blue Marble"
+
+  thermal_infrared:
+    name: "Thermal Infrared"
+    structure: "temperature gradients, heat signatures, thermal patterns, emission variations"
+    material: "radiant heat, temperature differences, thermal properties, emissivity patterns"
+    color: "thermal color scales (blue-cold to red-hot), temperature gradients, heat map palettes, rainbow thermal"
+    texture: "thermal uniformity, temperature variations, heat distribution, thermal boundaries"
+    composition: "thermal contrast, heat islands, temperature zones, thermal gradients"
+    style: "thermal imaging, heat map visualization, infrared temperature, radiometric data"
+    quality: "temperature-resolved, thermally sensitive, heat-revealing, emission-based"
+    mood: "revealing hidden heat, thermal vision, energy patterns, temperature awareness"
+    examples: "urban heat islands, volcanic activity, ocean temperatures, thermal pollution"
+
+  synthetic_aperture_radar:
+    name: "Synthetic Aperture Radar (SAR)"
+    structure: "radar backscatter, surface roughness patterns, penetrating vision, all-weather imaging"
+    material: "radar-reflective surfaces, microwave scattering, penetrating electromagnetic waves"
+    color: "grayscale intensity (unless colorized), bright returns (rough/metallic), dark smooth water"
+    texture: "speckle patterns, radar texture, surface roughness indicators, backscatter variation"
+    composition: "side-looking geometry, radar shadows, layover effects, geometric distortion"
+    style: "SAR imaging, radar remote sensing, microwave vision, all-weather observation"
+    quality: "weather-independent, surface-sensitive, penetrating, day/night capable"
+    mood: "technical, penetrating vision, geometric, all-seeing capability"
+    examples: "Sentinel-1, RADARSAT, oil spill detection, terrain mapping"
+
+  lidar_elevation:
+    name: "LiDAR Elevation"
+    structure: "topographic relief, elevation data, digital terrain model, three-dimensional surface"
+    material: "elevation-coded surface, height information, vertical resolution, bare earth model"
+    color: "elevation gradients (green-low to red-high), hypsometric tints, terrain color ramps"
+    texture: "topographic texture, slope variations, surface roughness, elevation detail"
+    composition: "hillshade effects, relief shading, elevation contours, three-dimensional perspective"
+    style: "LiDAR point cloud, digital elevation model (DEM), terrain visualization, topographic mapping"
+    quality: "vertically precise, elevation-resolved, topographically detailed, three-dimensional"
+    mood: "revealing hidden topography, terrain awareness, elevation emphasis, landscape structure"
+    examples: "bare earth DEM, canopy height models, flood modeling, archaeological features"
+
+  multispectral_agriculture:
+    name: "Multispectral Agriculture"
+    structure: "vegetation indices, crop health patterns, agricultural parcels, spectral signatures"
+    material: "vegetation response, chlorophyll absorption, moisture content, crop vigor"
+    color: "NDVI color ramps (red-stressed to green-healthy), crop health gradients, vigor mapping"
+    texture: "field patterns, crop row structure, agricultural textures, parcel boundaries"
+    composition: "agricultural grid, field geometry, crop patterns, land use parcels"
+    style: "precision agriculture, NDVI mapping, crop monitoring, vegetation index visualization"
+    quality: "agriculturally informative, vegetation-sensitive, crop health revealing, spectrally analytical"
+    mood: "agricultural insight, crop management, vegetation monitoring, land productivity"
+    examples: "NDVI, EVI, crop yield prediction, irrigation monitoring, disease detection"
+
+altitude_perspectives:
+  orbital:
+    description: "global scale, planetary curvature, atmospheric edge"
+    scale: "planetary"
+    context: "atmospheric edge, curvature visible"
+  high_altitude:
+    description: "regional patterns, weather systems, large geographic features"
+    scale: "regional"
+    context: "weather systems, large geographic features"
+  medium_altitude:
+    description: "city/landscape scale, recognizable features, moderate detail"
+    scale: "city/landscape"
+    context: "recognizable features, moderate detail"
+  low_altitude:
+    description: "neighborhood detail, fine features, close perspective"
+    scale: "neighborhood"
+    context: "fine features, close perspective"
+
+feature_emphasis:
+  natural:
+    focus: "vegetation patterns, water bodies, terrain features"
+  urban:
+    focus: "built environment, infrastructure, city patterns, roads"
+  abstract:
+    focus: "patterns, textures, color, geometric arrangements"
+  mixed:
+    focus: "balance natural and built features"
+
+aesthetic_strength:
+  subtle:
+    characteristics: 2
+    approach: "Use 2-3 imagery characteristics lightly"
+  balanced:
+    characteristics: 4
+    approach: "Use 4-5 characteristics evenly"
+  strong:
+    characteristics: 6
+    approach: "Use 6+ characteristics prominently"
