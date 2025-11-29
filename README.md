@@ -27,3 +27,10 @@ python -m satellite_imagery_aesthetics.server
 - `docs/architecture.md` - Deep dive
 - `docs/usage.md` - How to use
 - `docs/parameters.md` - Parameter reference
+- Part of the Lushy.app Visual Vocabulary ecosystem
+
+## Licesne
+MIT
+
+## Author
+Dal Marsters
