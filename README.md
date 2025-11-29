@@ -29,7 +29,7 @@ python -m satellite_imagery_aesthetics.server
 - `docs/parameters.md` - Parameter reference
 - Part of the Lushy.app Visual Vocabulary ecosystem
 
-## Licesne
+## License
 MIT
 
 ## Author
